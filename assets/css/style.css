@@ -541,17 +541,17 @@ a.slide-btn:hover {}
 }
 
 .slide-1 {
-    background: url("../images/bg/slide-1.jpg") scroll 0 0;
+    background: url("../images/pic_1.png") scroll 0 0;
     background-size: cover;
 }
 
 .slide-2 {
-    background: url("../images/bg/slide-2.jpg") scroll 0 0;
+    background: url("../images/pic_2.png") scroll 0 0;
     background-size: cover;
 }
 
 .slide-3 {
-    background: url("../images/bg/bg.jpg") scroll 0 0;
+    background: url("../images/pic_3.png") scroll 0 0;
     background-size: cover;
 }
 
@@ -785,7 +785,7 @@ a.slide-btn:hover {}
 
 .video-area {
     padding: 150px 0px;
-    background: url("../images/video-bg.jpg");
+    background: url("../images/video_back.png");
     position: relative;
     background-size: cover;
     z-index: 1;
@@ -1704,4 +1704,19 @@ a.learn-more {
 }
 .main {
 	margin-bottom: 180px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* CUSTOM
+* ----------------------------------------------------------------------------------------
+*/
+
+.footer-text.wow.fadeInUp a {
+    margin: 20px;
+    color: #000;
+}
+
+.footer-text.wow.fadeInUp a:hover {
+    color: #4b691e;
 }

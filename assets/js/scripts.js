@@ -182,11 +182,11 @@ Version      : 1.0
          *  GOOGLE MAP JS
          * ----------------------------------------------------------------------------------------
          */
-        var myCenter = new google.maps.LatLng(23.688272, 90.443162);
+        var myCenter = new google.maps.LatLng(52.57877, 13.89168);
 
         function initialize() {
             var mapProp = {
-                zoom: 14,
+                zoom: 17,
                 center: myCenter,
                 scrollwheel: false,
                 styles: [{
